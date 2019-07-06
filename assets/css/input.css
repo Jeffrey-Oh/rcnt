@@ -1,0 +1,172 @@
+/*======== mobile ========*/
+.input_header {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.form-group {
+    margin-bottom: 100px;
+}
+
+.form-box {
+    border: 3px solid #ff857c;
+    width: 340px;
+    margin: auto;
+    position: relative;
+}
+
+.form-box.input_box {
+    margin-bottom: 50px;
+}
+
+.btn_submit {
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
+.head_img {
+    width: 200px;
+    margin: auto;
+}
+
+.head_img img {
+    display: block;
+    margin: auto;
+    width: 200px !important;
+    height: 200px !important;
+}
+
+.dash:after {
+    display: block;
+    content: '';
+    border-bottom: 2px solid #db5756;
+    margin: auto;
+    width: 50px;
+    height: 30px;
+}
+
+.side_contents .fl {
+    font-size: 14px;
+    width: 100%;
+    word-break: keep-all;
+    color: #49738c;
+}
+
+.fl .intro {
+    font-size: 40px;
+    color: #ff857c;
+}
+
+.side_contents .fr {
+    font-size: 14px;
+    width: 100%;
+    word-break: keep-all;
+    color: #49738c;
+}
+
+.fr .intro {
+    font-size: 40px;
+    color: #ff857c;
+}
+
+.form-group {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding-left: 18px !important;
+}
+
+.form-group .form-inline {
+    display: inline-block !important;
+}
+
+/*======== tablet ========*/
+@media all and (min-width:600px){
+
+}
+
+/*======== pc ========*/
+@media all and (min-width: 1200px) {
+    body {
+        width: 1900px;
+    }
+
+    .input_header {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        font-size: 18px;
+    }
+
+    .form-group {
+        margin-bottom: 100px;
+    }
+
+    .form-box {
+        border: 3px solid #ff857c;
+        width: 560px;
+        margin: auto;
+        position: relative;
+    }
+
+    .form-box.input_box {
+        margin-bottom: 50px;
+    }
+
+    .btn_submit {
+        margin: auto;
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    .head_img {
+        width: 400px;
+        margin: auto;
+    }
+
+    .head_img img {
+        width: 400px !important;
+        height: 400px !important;
+    }
+
+    .dash:after {
+        display: block;
+        content: '';
+        border-bottom: 2px solid #db5756;
+        margin: auto;
+        width: 50px;
+        height: 30px;
+    }
+
+    .side_contents .fl {
+        font-size: 20px;
+        width: 25%;
+        word-break: keep-all;
+        position: absolute;
+        left: 100px;
+        top: 200px;
+        z-index: 500;
+        color: #49738c;
+    }
+
+    .fl .intro {
+        font-size: 40px;
+        color: #ff857c;
+    }
+
+    .side_contents .fr {
+        font-size: 20px;
+        width: 25%;
+        word-break: keep-all;
+        position: absolute;
+        right: 100px;
+        top: 200px;
+        z-index: 500;
+        color: #49738c;
+    }
+
+    .fr .intro {
+        font-size: 40px;
+        color: #ff857c;
+    }
+}
